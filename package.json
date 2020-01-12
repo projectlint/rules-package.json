@@ -1,7 +1,7 @@
 {
-  "name": "rules-package.json",
+  "name": "@projectlint/rules-package.json",
   "version": "0.0.0",
-  "description": "Package.json rules for projectlint, a style checker and lint tool for (Node.js) projects",
+  "description": "`package.json` file rules for `projectlint`",
   "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
