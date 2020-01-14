@@ -1,10 +1,10 @@
 {
-  "name": "@projectlint/rules-package.json",
+  "name": "@projectlint/plugin-package.json",
   "version": "0.0.0",
   "description": "`package.json` file rules for `projectlint`",
   "main": "lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --notify"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
     "npm-package-json-lint": "^4.5.0",
     "npm-package-json-lint-config-default": "^2.0.0",
     "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "jest-cli": "^24.9.0",
+    "prettier": "^1.19.1"
   }
 }
