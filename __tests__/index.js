@@ -149,6 +149,7 @@ test("smoke", function() {
       "rules": Object {
         "has default version": Object {
           "evaluate": [Function],
+          "fetch": [Function],
         },
         "npm-check-updates": Object {
           "evaluate": [Function],
