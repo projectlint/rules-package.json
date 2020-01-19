@@ -4,42 +4,6 @@ test("smoke", function() {
   expect(result).toMatchInlineSnapshot(`
     Object {
       "config": Object {
-        "default": Object {
-          "npm-package-json-lint": Array [
-            "error",
-            Object {
-              "rules": Object {
-                "bin-type": "error",
-                "config-type": "error",
-                "cpu-type": "error",
-                "dependencies-type": "error",
-                "description-type": "error",
-                "devDependencies-type": "error",
-                "directories-type": "error",
-                "engines-type": "error",
-                "files-type": "error",
-                "homepage-type": "error",
-                "keywords-type": "error",
-                "license-type": "error",
-                "main-type": "error",
-                "man-type": "error",
-                "name-format": "error",
-                "name-type": "error",
-                "optionalDependencies-type": "error",
-                "os-type": "error",
-                "peerDependencies-type": "error",
-                "preferGlobal-type": "error",
-                "private-type": "error",
-                "repository-type": "error",
-                "require-name": "error",
-                "require-version": "error",
-                "scripts-type": "error",
-                "version-format": "error",
-                "version-type": "error",
-              },
-            },
-          ],
-        },
         "recommended": Object {
           "has default version": "warning",
           "npm-check-updates": Object {
