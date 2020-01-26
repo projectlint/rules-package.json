@@ -72,7 +72,7 @@ test("smoke", function() {
           ],
         },
         "strict": Object {
-          "has default version": "warning",
+          "has default version": "error",
           "npm-check-updates": Object {
             "error": Object {
               "errorLevel": 2,
@@ -100,7 +100,7 @@ test("smoke", function() {
               "prefer-no-engineStrict": "error",
               "prefer-no-version-zero-dependencies": "error",
               "prefer-no-version-zero-devDependencies": "error",
-              "prefer-property-order": "warning",
+              "prefer-property-order": "error",
               "require-author": "error",
               "require-bugs": "error",
               "require-contributors": "error",
@@ -142,6 +142,12 @@ test("smoke", function() {
                 "version-format": "error",
                 "version-type": "error",
               },
+              "valid-values-name-scope": Array [
+                "error",
+                Array [
+                  "@[0-1a-z._-]+",
+                ],
+              ],
             },
           ],
         },
