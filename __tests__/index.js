@@ -5,6 +5,14 @@ test("smoke", function() {
     Object {
       "config": Object {
         "recommended": Object {
+          "engines.node version": Object {
+            "error": Object {
+              "status": "maintained",
+            },
+            "warning": Object {
+              "status": "lts_active",
+            },
+          },
           "has default version": "warning",
           "npm-check-updates": Object {
             "error": Object {
@@ -74,6 +82,11 @@ test("smoke", function() {
           ],
         },
         "strict": Object {
+          "engines.node version": Object {
+            "error": Object {
+              "status": "lts_active",
+            },
+          },
           "has default version": "error",
           "npm-check-updates": Object {
             "error": Object {
@@ -156,6 +169,10 @@ test("smoke", function() {
         },
       },
       "rules": Object {
+        "engines.node version": Object {
+          "evaluate": [Function],
+          "fetch": [Function],
+        },
         "has default version": Object {
           "evaluate": [Function],
           "fetch": [Function],

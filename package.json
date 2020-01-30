@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/projectlint/rules-package.json#readme",
   "dependencies": {
+    "@pkgjs/nv": "0.0.3",
     "git-semver-tags": "^3.0.1",
     "npm-check-updates": "^4.0.1",
     "npm-conf": "^1.1.3",
