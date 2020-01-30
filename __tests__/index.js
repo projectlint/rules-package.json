@@ -18,6 +18,7 @@ test("smoke", function() {
           "npm-package-json-lint": Array [
             "error",
             Object {
+              "engines-type": "error",
               "no-absolute-version-dependencies": "error",
               "no-absolute-version-devDependencies": "error",
               "no-duplicate-properties": "error",
@@ -35,6 +36,7 @@ test("smoke", function() {
               "require-author": "error",
               "require-bugs": "error",
               "require-description": "error",
+              "require-engines": "warning",
               "require-homepage": "error",
               "require-license": "error",
               "require-repository": "error",
@@ -81,6 +83,7 @@ test("smoke", function() {
           "npm-package-json-lint": Array [
             "error",
             Object {
+              "engines-type": "error",
               "no-absolute-version-dependencies": "error",
               "no-absolute-version-devDependencies": "error",
               "no-archive-dependencies": "error",
