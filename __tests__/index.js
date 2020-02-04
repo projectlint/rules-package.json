@@ -26,6 +26,13 @@ test("smoke", function() {
           "npm-package-json-lint": Array [
             "error",
             Object {
+              "description-format": Array [
+                "error",
+                Object {
+                  "forbidEndingPeriod": true,
+                  "requireCapitalFirstLetter": true,
+                },
+              ],
               "engines-type": "error",
               "no-absolute-version-dependencies": "error",
               "no-absolute-version-devDependencies": "error",
@@ -96,6 +103,13 @@ test("smoke", function() {
           "npm-package-json-lint": Array [
             "error",
             Object {
+              "description-format": Array [
+                "error",
+                Object {
+                  "forbidEndingPeriod": true,
+                  "requireCapitalFirstLetter": true,
+                },
+              ],
               "engines-type": "error",
               "no-absolute-version-dependencies": "error",
               "no-absolute-version-devDependencies": "error",
