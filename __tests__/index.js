@@ -16,12 +16,9 @@ test("smoke", function() {
           "has default version": "warning",
           "npm-check-updates": Object {
             "error": Object {
-              "errorLevel": 2,
               "semverLevel": "major",
             },
-            "warning": Object {
-              "errorLevel": 2,
-            },
+            "warning": Object {},
           },
           "npm-package-json-lint": Array [
             "error",
@@ -96,9 +93,7 @@ test("smoke", function() {
           },
           "has default version": "error",
           "npm-check-updates": Object {
-            "error": Object {
-              "errorLevel": 2,
-            },
+            "error": Object {},
           },
           "npm-package-json-lint": Array [
             "error",
