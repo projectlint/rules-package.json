@@ -198,6 +198,10 @@ test("smoke", function() {
           "evaluate": [Function],
           "fetch": [Function],
         },
+        "standard main field": Object {
+          "evaluate": [Function],
+          "fetch": [Function],
+        },
       },
     }
   `);
