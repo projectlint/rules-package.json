@@ -186,6 +186,9 @@ test("smoke", function () {
           "evaluate": [Function],
           "fetch": [Function],
         },
+        "husky": Object {
+          "evaluate": [Function],
+        },
         "npm-check-updates": Object {
           "evaluate": [Function],
           "fix": [Function],
