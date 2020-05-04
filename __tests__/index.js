@@ -194,6 +194,10 @@ test("smoke", function() {
           "evaluate": [Function],
           "fix": [Function],
         },
+        "package is requirable": Object {
+          "evaluate": [Function],
+          "fetch": [Function],
+        },
       },
     }
   `);
