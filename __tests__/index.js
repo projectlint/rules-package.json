@@ -1,4 +1,4 @@
-test("smoke", function() {
+test("smoke", function () {
   const result = require("..");
 
   expect(result).toMatchInlineSnapshot(`
